@@ -3,15 +3,29 @@
     <head>
         <title>Trip</title>
         <link href="style.css" rel="stylesheet" />
+        <script src="js/main.js" ></script>
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="connexion">
+                <img src="img/profil_blue.png" />
+                <p>Profil Consultant</p>
+            </div>
+            <h1 class="logo">TRIP</h1>
+        </header>
         <div class="content">
             <div class="left-menu">
+                <div class="button_zone">
+                    <button type="button" onclick="hideOrShow()"  >
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                    </button>
+                </div>
                 <ul class="menu">
-                    <li><span>Ajouter un CRE</span></li>
-                    <li>Rechercher un CRE</li>
-                    <li>Mes CRE</li>
+                    <li><img src="img/profil_blue.png" /><span class="menu_item" >Ajouter un CRE</span></li>
+                    <li><img src="img/profil_blue.png" /><span class="menu_item" >Rechercher un CRE</span></li>
+                    <li><img src="img/profil_blue.png" /><span class="menu_item" >Mes CRE</span></li>
                     <li></li>
                 </ul>
             </div>

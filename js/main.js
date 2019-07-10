@@ -1,0 +1,4 @@
+hideOrShow
+{
+    alert('Bravo');
+}

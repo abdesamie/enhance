@@ -9,24 +9,66 @@ html , body
 header
 {
     background-color: #555566;
-    height: 80px;
+    height: 70px;
     margin-bottom: 0px ;
+    padding-top: 10px;
     
 }
+.logo 
+{
+    color: whitesmoke;
+    margin: 10px;
+}
+.connexion
+{
+    float: right;
+    width: 12em;
+    color: beige;
+    padding-right: 1em;
+}
 
+.connexion img  
+{
+    float: right;
+    margin-top: 0.5em;
+}
 .content
 {
-    background-color: #eeeeee;
+    background-color: #fff;
     height: 100%;
 }
 
 .left-menu
 {
     float: left;
-    width: 280px;
+    width: 270px;
     background-color: #666677;
+    margin-top: -8px; 
 }
 
+
+.button_zone
+{
+    background-color: lawngreen;
+    height: 2.5em;    
+}
+
+.button_zone button
+{
+    float: right;
+    height: 100%;
+    background-color: lawngreen;
+    border: none;
+}
+
+.icon {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+    margin: 4px;
+}
 .menu
 {
     margin-top: 0px;
@@ -41,7 +83,7 @@ header
     font-size: 20px;
     color: white;
     font-family: Caviar Dreams;
-    height: 100px;
+    height: 80px;
     text-align: center;
     background-color: #666677;
     border-bottom: solid  gray 2px;
@@ -52,7 +94,11 @@ header
    background-color: slategray;
 } 
 
-
+.menu img
+{
+    margin: auto 10px;
+    float: left;
+}
 .main
 {
     margin-left: 280px;
@@ -66,7 +112,10 @@ header
 
 .headline
 {
-    background-color: aliceblue;
+    border: solid 1px #ffffff;
+    background-color: #eeffff;
+    margin: 10px  10px;
+    padding-top: 5px;
 }
 
 .headline h1
@@ -92,3 +141,23 @@ table {
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+.section
+{
+    background-color: #fff;
+    border: solid ;
+    border-color: #eeeeee;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+.section h2
+{
+    display: inline-block;  
+    font-size: 22px;
+    position: relative;
+    top: -1.5em;
+    color: limegreen;
+    background-color: white;
+}
+
