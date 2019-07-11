@@ -100,3 +100,25 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
+
+.bottom input[type=submit]
+{
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.orange
+{
+    background-color: orange;
+}
+
+.green
+{
+    background-color: limegreen;
+}

@@ -2,8 +2,10 @@
     
     <head>
         <title>Trip</title>
-        <link href="style.css" rel="stylesheet" />
-        <link href="forms.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/forms.css" rel="stylesheet" />
+        <link href="css/autocomplete.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         
         <script src="js/main.js" ></script>
     </head>
@@ -25,9 +27,10 @@
                     </button>
                 </div>
                 <ul class="menu">
-                    <li><img src="img/profil_blue.png" /><a class="menu_item" href="ajout.html" >Ajouter un CRE</a></li>
-                    <li><img src="img/profil_blue.png" /><a class="menu_item" href="index.html" >Rechercher un CRE</a></li>
-                    <li><img src="img/profil_blue.png" /><a class="menu_item" href="lecture.html" >Mes CRE</a></li>
+                   
+                    <li><i class="fas fa-plus"></i><a class="menu_item" href="ajout.html" >Ajouter un CRE</a></li>
+                    <li><i class="fas fa-search"></i><a class="menu_item" href="index.html" >Rechercher un CRE</a></li>
+                    <li><i class="fas fa-book"></i><a class="menu_item" href="lecture.html" >Mes CRE</a></li>
                     <li></li>
                 </ul>
             </div>
@@ -36,48 +39,64 @@
                         <h1>Mes CRE</h1>
                         <p>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                     </div>
-					<div class="section">
-                        <h2>Déroulé de l'entretien</h2>  
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
-                        <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
-                        
-                        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
-                        
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
-                        <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
-                        
-                        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
-                        
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
-                        <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
-                        
-                        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
-                        
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
-                        <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
-                        
-                        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
+					<div class="partial_section">
+                        <h2>Informations générales</h2>  
+                     <table >
+                    
+                    <tr>
+                        <td class="left">Nom du client</td>
+                        <td>Soat</td>
+                        <td>27/12/2019</td>
+                    </tr>
+                    
+                    <tr>
+                        <td  class="left">Intitulé de poste</td>
+                        <td>Test Data</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td  class="left">Intitulé de poste</td>
+                        <td>Test Data</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td  class="left">Nom des interlocuteurs</td>
+                        <td>Test Data</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td  class="left">Nom d'equipe</td>
+                        <td>Test Data</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td  class="left">Nom du projet</td>
+                        <td>Test Data</td>
+                        <td></td>
+                    </tr>
+                </table>
                         
 					</div>
                     <div class="section">
                         <h2>Cadre de la mission</h2> 
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                         
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                         
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                         <p><span class="techno">Java8</span></p>
                         
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn  </p>
@@ -86,7 +105,7 @@
                     </div>
                     <div class="section">
                         <h2>Déroulé de l'entretien</h2>  
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <label class="wrapper">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             <input type="checkbox"  />
                             <span class="checktrip" ></span>

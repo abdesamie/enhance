@@ -2,10 +2,10 @@
     
     <head>
         <title>Trip</title>
-        <link href="style.css" rel="stylesheet" />
-        <link href="forms.css" rel="stylesheet" />
-        
-        <script src="js/main.js" ></script>
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/forms.css" rel="stylesheet" />
+        <link href="css/autocomplete.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     </head>
     <body>
         <header>
@@ -25,9 +25,9 @@
                     </button>
                 </div>
                 <ul class="menu">
-                    <li><img src="img/profil_blue.png" /><a class="menu_item" href="ajout.html" >Ajouter un CRE</a></li>
-                    <li><img src="img/profil_blue.png" /><a class="menu_item" href="index.html" >Rechercher un CRE</a></li>
-                    <li><img src="img/profil_blue.png" /><a class="menu_item" href="lecture.html" >Mes CRE</a></li>
+                    <li><i class="fas fa-plus"></i><a class="menu_item" href="ajout.html" >Ajouter un CRE</a></li>
+                    <li><i class="fas fa-search"></i><a class="menu_item" href="index.html" >Rechercher un CRE</a></li>
+                    <li><i class="fas fa-book"></i><a class="menu_item" href="lecture.html" >Mes CRE</a></li>
                     <li></li>
                 </ul>
             </div>
@@ -37,8 +37,8 @@
                         <p>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                     </div>
 					<div class="section">
-                        <h2>Déroulé de l'entretien</h2>  
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h2>Informations générales</h2>  
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                             <label for="fname">Nom du client</label>
                             <input type="text" id="fname" name="firstname" placeholder="Taper nom du client..">
 
@@ -52,27 +52,25 @@
                               <option value="angular">Angular</option>
                               <option value="dotnet">Dotnet</option>
                             </select>
+                        
+                            <input id="myInput" type="text" name="myCountry" placeholder="Technology">
 
 					</div>
                     <div class="section">
                         <h2>Cadre de la mission</h2> 
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                         
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
-                        <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
-                        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
-                        
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn </p>
                         <p><span class="techno">Java8</span></p>
                         
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <p>Beaucoup de texte  qui parle de tout et de n'importe quoi lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor  
                         
                         lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore ma plus on ecris plus on occn  </p>
@@ -81,7 +79,19 @@
                     </div>
                     <div class="section">
                         <h2>Déroulé de l'entretien</h2>  
-                        <h3>Description du ou des projets, et leure environnements bla bla bla</h3>
+                        <div>
+                            <label for="fname">Structure de l'entretien</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Decrivez structure..">
+
+                            <label for="lname">En termes de préparation</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Décrivez préparation ..">
+                        </div>
+                        
+                    </div>
+                    <div class="section">
+                        <h2>Questions techniques</h2>
+                        
+                        <h3>Description du ou des projets, et leurs environnements bla bla bla</h3>
                         <label class="wrapper">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             <input type="checkbox"  />
                             <span class="checktrip" ></span>
@@ -113,12 +123,15 @@
 
                         <input type="submit" value="Submit">
                     </div>
-                    <div class="section">
-                        <h2>Questions techniques</h2>
-                    </div>
+                    <div class="bottom">
+                        <input type="submit" class="orange" value="Save"/>
+                        <input type="submit" class="green" value="Submit"/>
+                    </div>    
                 
             </div>
         </div>
         <footer></footer>
+                <script type="text/javascript" src="js/main.js" ></script>
+
     </body>
 </html>

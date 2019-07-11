@@ -1,9 +1,10 @@
 html , body
 {
-    background-color: ghostwhite;
+    background-color: #fff;
     border-color: aqua;
     margin: auto;
     height: 100%;
+    font-family:   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header
@@ -16,6 +17,7 @@ header
     height: 70px;
     margin-bottom: 0px ;
     padding-top: 10px;
+    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
     
 }
 .logo 
@@ -50,6 +52,7 @@ header
     width: 270px;
     background-color: #666677;
     margin-top: -8px; 
+    z-index: 101; 
 }
 
 
@@ -86,21 +89,21 @@ header
 .menu li
 {
     display: block;
-    font-size: 20px;
+    font-size: 19px;
     color: white;
-    font-family: Caviar Dreams;
-    height: 80px;
-    text-align: center;
     background-color: #666677;
     border-bottom: solid  gray 2px;
+    padding: 1.5em  0;
+    text-transform: uppercase;
 }
 
 .menu li:hover
 {
    background-color: slategray;
+    
 } 
 
-.menu img
+.menu i
 {
     margin: auto 10px;
     float: left;
@@ -172,7 +175,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     font-size: 22px;
     position: relative;
     top: -0.8em;
-    color: limegreen;
+    color: #adc90a;
     background-color: white;
 }
 
@@ -192,10 +195,57 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 {
     
     display: inline-block;
+    color: black;
     padding : 0.2em 0.5em;
     background-color: lightgray;
     border: thin;
     border-radius: 1.5em;
-    color: white;
+    font-weight: bold;
+}
+
+.partial_section
+{
+    background-color: #fff;
+    border: solid ;
+    border-color: #eeeeee;
+    border-radius: 2em;
+    margin: 20px 20px;
+    width: 50%;
+    
+}
+
+.partial_section h2
+{
+    display: inline-block;  
+    margin: 0px 20px;
+    font-size: 22px;
+    position: relative;
+    top: -0.8em;
+    color: #adc90a;
+    background-color: white;
+}
+
+.partial_section table
+{
+    
+    margin: 2em;
+    width: 80%;
+}
+.partial_section td
+{
+     background-color: #ffffff;
+    color: black;
+    height: 3em;
+}
+.partial_section th
+{
+     background-color: #ffffff;
+    color: black;
+    height: 3em;
+}
+
+.left
+{
+    text-align: left;
     font-weight: bold;
 }
