@@ -1,13 +1,17 @@
 html , body
 {
+    background-color: ghostwhite;
     border-color: aqua;
-    background-color: #cccccc;
     margin: auto;
     height: 100%;
 }
 
 header
 {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
     background-color: #555566;
     height: 70px;
     margin-bottom: 0px ;
@@ -34,13 +38,15 @@ header
 }
 .content
 {
-    background-color: #fff;
+    margin-top: 5em;
     height: 100%;
 }
 
 .left-menu
 {
-    float: left;
+    position: fixed;
+    top: 90px;
+    height: 100%;
     width: 270px;
     background-color: #666677;
     margin-top: -8px; 
@@ -49,7 +55,7 @@ header
 
 .button_zone
 {
-    background-color: lawngreen;
+    background-color: #adc90a;
     height: 2.5em;    
 }
 
@@ -57,7 +63,7 @@ header
 {
     float: right;
     height: 100%;
-    background-color: lawngreen;
+    background-color: #adc90a;
     border: none;
 }
 
@@ -99,8 +105,16 @@ header
     margin: auto 10px;
     float: left;
 }
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    
+}
 .main
 {
+    margin-top: 100px;
     margin-left: 280px;
 }
 
@@ -147,17 +161,41 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     background-color: #fff;
     border: solid ;
     border-color: #eeeeee;
-    border-radius: 5px;
+    border-radius: 2em;
     margin: 20px 20px;
 }
 
 .section h2
 {
     display: inline-block;  
+    margin: 0px 20px;
     font-size: 22px;
     position: relative;
-    top: -1.5em;
+    top: -0.8em;
     color: limegreen;
     background-color: white;
 }
 
+
+.techno
+{
+    display: inline-block;
+    padding : 0.2em 0.5em;
+    background-color: darkseagreen;
+    border: thin;
+    border-radius: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.method
+{
+    
+    display: inline-block;
+    padding : 0.2em 0.5em;
+    background-color: lightgray;
+    border: thin;
+    border-radius: 1.5em;
+    color: white;
+    font-weight: bold;
+}

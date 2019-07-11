@@ -1,0 +1,102 @@
+.wrapper
+{
+    
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-left: 1em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.wrapper  input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checktrip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.4em;
+  width: 1.4em;
+  background-color: #eee;
+}
+
+
+
+.wrapper:hover input ~ .checktrip {
+  background-color: #ccc;
+}
+
+
+
+.wrapper input:checked ~ .checktrip {
+  background-color: forestgreen;
+}
+
+
+.checktrip:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.wrapper input:checked ~ .checktrip:after {
+  display: block;
+}
+
+
+
+.wrapper .checktrip:after {
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+input[type=text], select, textarea {
+  display: block;
+  width: 45em;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+    
+  resize: vertical;
+}
+
+.section label
+{
+    margin-left: 1em;
+}
+
+.section input[type=submit]
+{
+  margin: 1em;  
+  background-color: darkgray;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
